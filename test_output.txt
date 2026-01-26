@@ -1,0 +1,22 @@
+Success! Parsed 10 transactions
+
+DataFrame columns: ['transaction_id', 'date', 'from_account', 'to_account', 'amount', 'currency', 'description']
+
+All transactions:
+  transaction_id       date                       from_account                          to_account    amount currency                         description
+0       TX000000 2025-11-02                     ACCOUNT_HOLDER                           STARBUCKS    104.30      USD                           STARBUCKS
+1       TX000001 2025-11-03                     ACCOUNT_HOLDER                             NETFLIX     47.19      USD                             NETFLIX
+2       TX000002 2025-11-03                     ACCOUNT_HOLDER                           UBER RIDE     26.46      USD                           UBER RIDE
+3       TX000003 2025-11-04                     ACCOUNT_HOLDER                     AMAZON PURCHASE     52.98      USD                     AMAZON PURCHASE
+4       TX000004 2025-11-05                     ACCOUNT_HOLDER                             NETFLIX    149.62      USD                             NETFLIX
+5       TX000005 2025-11-10             CASH DEPOSIT ATM #5421                      ACCOUNT_HOLDER   9757.94      USD              CASH DEPOSIT ATM #5421
+6       TX000006 2025-11-10             CASH DEPOSIT ATM #5421                      ACCOUNT_HOLDER   9472.01      USD              CASH DEPOSIT ATM #5421
+7       TX000007 2025-11-10             CASH DEPOSIT ATM #5421                      ACCOUNT_HOLDER   9772.63      USD              CASH DEPOSIT ATM #5421
+8       TX000008 2025-11-15  WIRE TRANSFER FROM SHELL CORP LLC                      ACCOUNT_HOLDER  50000.00      USD   WIRE TRANSFER FROM SHELL CORP LLC
+9       TX000009 2025-11-15                     ACCOUNT_HOLDER  WIRE TRANSFER TO OFFSHORE HOLDINGS  49800.00      USD  WIRE TRANSFER TO OFFSHORE HOLDINGS
+
+Transaction summary:
+- Total transactions: 10
+- Unique accounts: 8
+- Date range: 2025-11-02 00:00:00 to 2025-11-15 00:00:00
+- Total amount: $129,183.13
